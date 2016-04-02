@@ -1,0 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+
+#background {
+  background: radial-gradient(#f3f3f3, #AFAFAF);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#switch {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  width: 203px;
+  height: 203px;
+  background: transparent url("buttons.png");
+  overflow: hidden;
+}
+
+#switch.on {
+  background-position: 0px 0px;
+}
+
+#switch.off {
+  background-position: -203px 0px;
+}
